@@ -2,7 +2,7 @@ resource "aws_instance" "public_subnet-1" {
 ami="ami-005fc0f236362e99f"
 instance_type="t2.micro"
 count=1
-key_name="new-key"
+key_name="ec1"
 vpc_security_group_ids=["${aws_security_group.demosg.id}"]
 subnet_id="${aws_subnet.public_subnet-1.id}"
 associate_public_ip_address=true
