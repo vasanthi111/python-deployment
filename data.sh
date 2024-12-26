@@ -7,4 +7,4 @@ cd /home/ubuntu/
 git clone https://github.com/vasanthi111/USA-Housing.git
 cd /home/ubuntu/USA-Housing
 pip3 install -r requirements.txt
-screen -m -d python3 ./app.py
+python3 ./app.py
